@@ -5,11 +5,8 @@ function addElementToBeginningOfArray(array, element) {
   return chocolateBars;
 }
 
-addElementToBeginningOfArray();
-
 function destructivelyAddElementToBeginningOfArray(array, element) {
  var chocolateBars2 = (chocolateBars[1],"foo");
  return chocolateBars2;
 }
 
-destructivelyAddElementToBeginningOfArray();
